@@ -1,8 +1,8 @@
 package com.zoo.animals;
 
-public class AnimalFirst extends Animals {
+public class Tiger extends Animals {
 
-    public AnimalFirst(String name) {
+    public Tiger(String name) {
         super(name);
     }
 
@@ -13,7 +13,7 @@ public class AnimalFirst extends Animals {
 
     @Override
     public void voice() {
-        System.out.println("VoiceFirst");
+        System.out.println("Grrrrr");
     }
 
     @Override
@@ -21,10 +21,10 @@ public class AnimalFirst extends Animals {
         super.laserBeams();
     }
 
-    public void grenade(){
-        System.out.println("grenade");
+    public void claw(){
+        System.out.println("claw");
     }
-    public void throwG(){
-        System.out.println("Throw");
+    public void attack(){
+        System.out.println("attack");
     }
 }

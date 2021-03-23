@@ -2,10 +2,6 @@ package com.zoo;
 
 import com.zoo.animals.*;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -22,55 +18,55 @@ public class Main {
          */
 
 
-        AnimalFirst animalFirst = new AnimalFirst("Vasya");
-        animalFirst.eat();
-        animalFirst.voice();
-        animalFirst.laserBeams();
-        animalFirst.throwG();
-        animalFirst.grenade();
+        Tiger tiger = new Tiger("Vasya");
+        tiger.eat();
+        tiger.voice();
+        tiger.laserBeams();
+        tiger.attack();
+        tiger.claw();
 
 
-        AnimalSecond animalSecond = new AnimalSecond("Petya");
-        animalSecond.eat();
-        animalSecond.voice();
-        animalSecond.laserBeams();
-        animalSecond.set();
-        animalSecond.mine();
+        Bird bird = new Bird("Petya");
+        bird.eat();
+        bird.voice();
+        bird.laserBeams();
+        bird.deadliest();
+        bird.rostrum();
 
-        AnimalThird animalThird = new AnimalThird("Dasha");
-        animalThird.eat();
-        animalThird.voice();
-        animalThird.laserBeams();
-        animalThird.pistol();
-        animalThird.shoot();
+        Kitten kitten = new Kitten("Dasha");
+        kitten.eat();
+        kitten.voice();
+        kitten.laserBeams();
+        kitten.meow();
+        kitten.cuteness();
 
-        AnimalForth animalForth = new AnimalForth("Masha");
-        animalForth.eat();
-        animalForth.voice();
-        animalForth.laserBeams();
-        animalForth.holy();
-        animalForth.grenade();
+        Elephant elephant = new Elephant("Masha");
+        elephant.eat();
+        elephant.voice();
+        elephant.laserBeams();
+        elephant.stamp();
+        elephant.great();
 
-        AnimalFifth animalFifth = new AnimalFifth("Borya");
-        animalFifth.eat();
-        animalFifth.voice();
-        animalFifth.laserBeams();
-        animalFifth.syringe();
-        animalFifth.heal();
+        Snake snake = new Snake("Borya");
+        snake.eat();
+        snake.voice();
+        snake.laserBeams();
+        snake.strike();
+        snake.poison();
 
-        AnimalSixt animalSixt = new AnimalSixt("Robin");
-        animalSixt.eat();
-        animalSixt.voice();
-        animalSixt.laserBeams();
-        animalSixt.bow();
-        animalSixt.shoot();
+        Wolf wolf = new Wolf("Robin");
+        wolf.eat();
+        wolf.voice();
+        wolf.laserBeams();
+        wolf.bite();
+        wolf.rabies();
 
-        AnimalSeventh animalSeventh = new AnimalSeventh("Nastya");
-        animalSeventh.eat();
-        animalSeventh.voice();
-        animalSeventh.laserBeams();
-        animalSeventh.power();
-        animalSeventh.extra();
+        Bear bear = new Bear("Nastya");
+        bear.eat();
+        bear.voice();
+        bear.laserBeams();
+        bear.power();
+        bear.extra();
 
 
 

@@ -1,13 +1,14 @@
 package com.zoo.animals;
 
-public class AnimalThird extends Animals{
-    public AnimalThird(String name) {
+public class Elephant extends Animals{
+
+    public Elephant(String name) {
         super(name);
     }
 
     @Override
     public void voice() {
-        System.out.println("VoiceThird");
+        System.out.println("Truuuu");
     }
 
     @Override
@@ -19,11 +20,10 @@ public class AnimalThird extends Animals{
     public void eat() {
         super.eat();
     }
-
-    public void shoot(){
-        System.out.println("shoot");
+    public void stamp(){
+        System.out.println("Top-top");
     }
-    public void pistol(){
-        System.out.println("Pistol");
+    public void great(){
+        System.out.println("great");
     }
 }

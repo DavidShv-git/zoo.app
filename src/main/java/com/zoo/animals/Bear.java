@@ -1,18 +1,18 @@
 package com.zoo.animals;
 
-public class AnimalSeventh extends Animals {
+public class Bear extends Animals {
     @Override
     public void laserBeams() {
         super.laserBeams();
     }
 
-    public AnimalSeventh(String name) {
+    public Bear(String name) {
         super(name);
     }
 
     @Override
     public void voice() {
-        System.out.println("VoiceSeven");
+        System.out.println("Raur");
     }
 
     @Override

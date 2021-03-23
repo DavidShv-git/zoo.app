@@ -1,7 +1,7 @@
 package com.zoo.animals;
 
-public class AnimalSixt extends Animals {
-    public AnimalSixt(String name) {
+public class Wolf extends Animals {
+    public Wolf(String name) {
         super(name);
     }
 
@@ -12,18 +12,18 @@ public class AnimalSixt extends Animals {
 
     @Override
     public void voice() {
-        System.out.println("VoiceSixt");
+        System.out.println("Rrrrr");
     }
 
     @Override
     public void laserBeams() {
         super.laserBeams();
     }
-    public void bow(){
-        System.out.println("Bow");
+    public void bite(){
+        System.out.println("Bite");
     }
-    public void shoot(){
-        System.out.println("shoot");
+    public void rabies(){
+        System.out.println("Rabies");
     }
 
 }
