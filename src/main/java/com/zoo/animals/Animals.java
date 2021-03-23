@@ -28,9 +28,9 @@ public abstract class Animals {
                 '}';
     }
 
-    public void voice(){
+    public abstract void voice();
 
-    }
+
 
      public void laserBeams(){
          System.out.println("Piy-Piy");
