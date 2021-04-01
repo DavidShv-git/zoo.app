@@ -28,20 +28,14 @@ public abstract class Animals {
                 '}';
     }
 
-    public abstract void voice();
+    public void heightAndWeight(int height, int weight){
+        height = 120;
+        weight = 50;
+    }
 
-
-
-     public void laserBeams(){
-         System.out.println("Piy-Piy");
-     }
-
-
-
-
-    public void eat(){
-        System.out.println(toString());
-        System.out.println("Hrum-Hrum");
+    public void heightAndWeight(double height , double weight){
+        height = 123.3;
+        weight = 45.3;
     }
 
 

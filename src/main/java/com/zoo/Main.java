@@ -21,50 +21,56 @@ public class Main {
         Tiger tiger = new Tiger("Vasya");
         tiger.eat();
         tiger.voice();
-        tiger.laserBeams();
+        tiger.lasersBeam();
         tiger.attack();
-        tiger.claw();
+        tiger.toHunt("Mammals with hoofs");
+        tiger.heightAndWeight(23,32);
+
+
+
 
 
         Bird bird = new Bird("Petya");
-        bird.eat();
+        tiger.eat();
         bird.voice();
-        bird.laserBeams();
+        bird.lasersBeam();
         bird.deadliest();
         bird.rostrum();
+        bird.toFly("Air");
 
         Kitten kitten = new Kitten("Dasha");
         kitten.eat();
         kitten.voice();
-        kitten.laserBeams();
+        kitten.lasersBeam();
         kitten.meow();
         kitten.cuteness();
 
         Elephant elephant = new Elephant("Masha");
         elephant.eat();
         elephant.voice();
-        elephant.laserBeams();
+        elephant.lasersBeam();
         elephant.stamp();
         elephant.great();
+        elephant.heightAndWeight(2.05 , 203.2);
 
         Snake snake = new Snake("Borya");
         snake.eat();
         snake.voice();
-        snake.laserBeams();
+        snake.lasersBeam();
         snake.strike();
         snake.poison();
 
         Wolf wolf = new Wolf("Robin");
         wolf.eat();
         wolf.voice();
-        wolf.laserBeams();
+        wolf.lasersBeam();
         wolf.bite();
         wolf.rabies();
 
         Bear bear = new Bear("Nastya");
         bear.eat();
         bear.voice();
-        bear.laserBeams();
+        bear.lasersBeam();
         bear.power();
         bear.extra();
 

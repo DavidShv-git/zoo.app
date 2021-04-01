@@ -1,6 +1,9 @@
 package com.zoo.animals;
 
-public class Tiger extends Animals {
+import com.zoo.Action;
+import com.zoo.exceptions.ToHuntException;
+
+public  class Tiger extends Animals implements Action   {
 
     public Tiger(String name) {
         super(name);
@@ -8,7 +11,8 @@ public class Tiger extends Animals {
 
     @Override
     public void eat() {
-        super.eat();
+        System.out.println(toString());
+        System.out.println("Hrum-hrum");
     }
 
     @Override
@@ -17,14 +21,24 @@ public class Tiger extends Animals {
     }
 
     @Override
-    public void laserBeams() {
-        super.laserBeams();
+    public void lasersBeam() {
+        System.out.println("Piy-Piy");
     }
 
-    public void claw(){
-        System.out.println("claw");
-    }
-    public void attack(){
+    public  void attack(){
         System.out.println("attack");
     }
+
+    public void toHunt(String typeOfPray){
+        if(!typeOfPray.equalsIgnoreCase("Mammals with hoofs"))
+            try {
+                throw new ToHuntException("Wrong type of pray");
+            }
+        catch (ToHuntException a){
+                a.printStackTrace();
+        }
+        System.out.println("Nom-nom-nom");
+    }
+
+
 }

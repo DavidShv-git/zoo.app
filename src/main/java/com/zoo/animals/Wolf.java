@@ -1,13 +1,16 @@
 package com.zoo.animals;
 
-public class Wolf extends Animals {
+import com.zoo.Action;
+
+public class Wolf extends Animals implements Action {
     public Wolf(String name) {
         super(name);
     }
 
     @Override
     public void eat() {
-        super.eat();
+        System.out.println(toString());
+        System.out.println("Hrum-hrum");
     }
 
     @Override
@@ -16,9 +19,10 @@ public class Wolf extends Animals {
     }
 
     @Override
-    public void laserBeams() {
-        super.laserBeams();
+    public void lasersBeam() {
+        System.out.println("Piy-Piy");
     }
+
     public void bite(){
         System.out.println("Bite");
     }
