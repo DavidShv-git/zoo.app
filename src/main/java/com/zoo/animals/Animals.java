@@ -38,6 +38,7 @@ public abstract class Animals {
         weight = 45.3;
     }
 
+    abstract void getHome();
 
 
 

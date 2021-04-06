@@ -29,4 +29,9 @@ public class Bear extends Animals implements Action {
     public void extra(){
         System.out.println("extra");
     }
+
+    @Override
+    void getHome() {
+
+    }
 }

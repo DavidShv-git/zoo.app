@@ -29,4 +29,9 @@ public class Kitten extends Animals implements Action {
     public void meow(){
         System.out.println("meow");
     }
+
+    @Override
+    void getHome() {
+
+    }
 }

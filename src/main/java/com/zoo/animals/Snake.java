@@ -29,4 +29,9 @@ public class Snake extends Animals implements Action {
     public void strike(){
         System.out.println("strike");
     }
+
+    @Override
+    void getHome() {
+
+    }
 }

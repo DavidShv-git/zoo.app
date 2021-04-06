@@ -30,4 +30,8 @@ public class Wolf extends Animals implements Action {
         System.out.println("Rabies");
     }
 
+    @Override
+    void getHome() {
+
+    }
 }

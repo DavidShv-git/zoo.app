@@ -40,5 +40,8 @@ public  class Tiger extends Animals implements Action   {
         System.out.println("Nom-nom-nom");
     }
 
+    @Override
+    void getHome() {
 
+    }
 }

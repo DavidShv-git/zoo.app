@@ -35,16 +35,19 @@ public class Bird extends Animals implements Action {
         System.out.println("deadliest");
     }
 
-    public void toFly(String place){
-        if(!place.equalsIgnoreCase("Air"))
-            try{
+    public void toFly(String place) {
+        if (!place.equalsIgnoreCase("Air"))
+            try {
                 throw new ToFlyException("Wrong environment");
-            }
-        catch (ToFlyException a){
+            } catch (ToFlyException a) {
                 a.printStackTrace();
-        }
+            }
 
         System.out.println("Flying");
+    }
+
+    @Override
+    void getHome() {
 
     }
 }

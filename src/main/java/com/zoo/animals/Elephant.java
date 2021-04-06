@@ -30,4 +30,9 @@ public class Elephant extends Animals implements Action {
     public void great(){
         System.out.println("great");
     }
+
+    @Override
+    void getHome() {
+
+    }
 }
