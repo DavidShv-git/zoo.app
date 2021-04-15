@@ -3,8 +3,6 @@ package com.zoo.animals;
 import com.zoo.Action;
 import com.zoo.exceptions.ToFlyException;
 
-import java.io.IOException;
-
 public class Bird extends Animals implements Action {
 
 

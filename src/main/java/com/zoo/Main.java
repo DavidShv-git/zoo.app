@@ -2,6 +2,8 @@ package com.zoo;
 
 import com.zoo.animals.*;
 
+import java.util.SortedMap;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -16,6 +18,17 @@ public class Main {
         }
 
          */
+
+
+        Aviary aviary = new Aviary();
+
+        aviary.addAnimal("Sessile");
+        aviary.addAnimal("Debby");
+        aviary.addAnimal("Sally");
+        aviary.removeAnimal("Debby");
+        aviary.animalsInAviary();
+
+
 
 
         Tiger tiger = new Tiger("Vasya");
